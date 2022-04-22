@@ -1,0 +1,39 @@
+@import "null.css";
+
+@font-face {
+	font-family: "Taviraj";
+	src: url("../fonts/Taviraj-Regular.woff2") format("woff2"), url("../fonts/Taviraj-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+body {
+	font-family: "Taviraj", "sans-serif";
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.main-1 {
+	font-size: 36px;
+	/* letter-spacing: 1.35px; */
+	line-height: 1.1;
+	color: #333333;
+	max-width: 220px;
+	margin: 200px auto;
+}
+
+.main-1::after {
+	content: "";
+	max-width: 65px;
+	height: 0.1px;
+	display: block;
+	background-color: black;
+	margin-top: 8px;
+	/* border: 1px solid; */
+}
